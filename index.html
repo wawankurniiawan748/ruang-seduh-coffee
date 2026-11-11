@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#26352b" />
+  <meta name="description" content="Ruang SenjaCoffee — kopi pilihan, suasana nyaman, dan teman terbaik untuk setiap cerita." />
+  <title>Ruang Senja Coffee | Temukan Ritme, Nikmati Kopi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">Dibuat dengan biji kopi pilihan <span>✦</span> Pesan favoritmu hari ini</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Ruang Senja Coffee - Beranda">
+      <span class="brand-mark">rs<span>.</span></span>
+      <span class="brand-name">RUANG SENJA<small>COFFEE & STORIES</small></span>
+    </a>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#cerita">Cerita Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#suasana">Suasana</a>
+      <a href="#lokasi">Lokasi</a>
+      <a class="nav-order" href="#menu">Pesan Sekarang <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> GOOD COFFEE, GOOD MOOD</p>
+        <h1>Temukan ritme.<br /><em>Nikmati kopi.</em></h1>
+        <p class="hero-copy">Secangkir kopi, ruang untuk bercerita, dan jeda kecil untuk menikmati hari. Temukan racikan favoritmu di Ruang Senja.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">Jelajahi Menu <span>↗</span></a>
+          <a class="text-link" href="#cerita">Kenali Ruang Senja <span>↓</span></a>
+        </div>
+        <div class="hero-note"><div class="avatar-stack"><span>☕</span><span>✦</span><span>♡</span></div><p><strong>Diracik dengan hati</strong><br />Untuk momen yang berarti.</p></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo"></div>
+        <div class="photo-label"><span class="label-star">✳</span><span>YOUR DAILY<br />COFFEE BREAK</span></div>
+        <div class="round-stamp"><span>BREWED FRESH</span><strong>✳</strong><span>MADE WITH LOVE</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 / 04</span><span class="bottom-line"></span><span>SCROLL TO EXPLORE</span></div>
+    </section>
+
+    <section class="intro section-pad" id="cerita">
+      <div class="section-kicker">01 — CERITA KAMI</div>
+      <div class="intro-grid">
+        <h2>Lebih dari sekadar<br /><em>secangkir kopi.</em></h2>
+        <div class="intro-copy"><p>Di Ruang Senja, kami percaya hal sederhana bisa membuat hari terasa istimewa. Kami memilih biji kopi berkualitas, meraciknya dengan penuh perhatian, dan menyajikannya dalam suasana yang membuatmu betah.</p><a class="under-link" href="#lokasi">Temukan ruang kami <span>→</span></a></div>
+      </div>
+      <div class="value-row">
+        <div class="value-item"><span class="value-icon">✳</span><div><strong>Biji Pilihan</strong><p>Dipilih untuk rasa yang berkarakter.</p></div></div>
+        <div class="value-item"><span class="value-icon">◒</span><div><strong>Diracik Segar</strong><p>Disiapkan saat kamu memesan.</p></div></div>
+        <div class="value-item"><span class="value-icon">⌂</span><div><strong>Ruang Nyaman</strong><p>Tempat singgah, kerja, dan berbagi cerita.</p></div></div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="menu-heading"><div><div class="section-kicker">02 — PILIHAN FAVORIT</div><h2>Kenalan dengan<br /><em>menu kami.</em></h2></div><p>Dari espresso yang bold hingga minuman creamy yang menenangkan. Ada rasa untuk setiap suasana.</p></div>
+      <div class="menu-toolbar"><div class="filter-tabs" role="group" aria-label="Filter menu"><button class="filter-btn active" data-filter="all">Semua</button><button class="filter-btn" data-filter="coffee">Coffee</button><button class="filter-btn" data-filter="noncoffee">Non-Coffee</button><button class="filter-btn" data-filter="food">Pastry & Snack</button></div><button class="cart-trigger" id="openCart"><span class="cart-icon">♧</span> Keranjang <b id="cartCount">0</b></button></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="coffee" data-id="aren-latte" data-name="Aren Latte" data-price="28000"><div class="product-image img-aren"><span class="product-tag">BEST SELLER</span><button class="quick-add" aria-label="Tambah Aren Latte">+</button></div><div class="product-info"><div><h3>Aren Latte</h3><p>Espresso, susu, dan manis alami gula aren.</p></div><strong>Rp28.000</strong></div></article>
+        <article class="product-card" data-category="coffee" data-id="cafe-latte" data-name="Café Latte" data-price="27000"><div class="product-image img-latte"><button class="quick-add" aria-label="Tambah Café Latte">+</button></div><div class="product-info"><div><h3>Café Latte</h3><p>Espresso seimbang dengan susu lembut.</p></div><strong>Rp27.000</strong></div></article>
+        <article class="product-card" data-category="coffee" data-id="butterscotch" data-name="Butterscotch Sea Salt" data-price="32000"><div class="product-image img-butter"><span class="product-tag new-tag">MUST TRY</span><button class="quick-add" aria-label="Tambah Butterscotch Sea Salt">+</button></div><div class="product-info"><div><h3>Butterscotch Sea Salt</h3><p>Perpaduan creamy, manis, dan sedikit gurih.</p></div><strong>Rp32.000</strong></div></article>
+        <article class="product-card" data-category="noncoffee" data-id="matcha" data-name="Iced Matcha" data-price="30000"><div class="product-image img-matcha"><button class="quick-add" aria-label="Tambah Iced Matcha">+</button></div><div class="product-info"><div><h3>Iced Matcha</h3><p>Matcha pilihan dengan susu yang creamy.</p></div><strong>Rp30.000</strong></div></article>
+        <article class="product-card" data-category="noncoffee" data-id="chocolate" data-name="Classic Chocolate" data-price="28000"><div class="product-image img-choco"><button class="quick-add" aria-label="Tambah Classic Chocolate">+</button></div><div class="product-info"><div><h3>Classic Chocolate</h3><p>Cokelat pekat untuk mood yang lebih baik.</p></div><strong>Rp28.000</strong></div></article>
+        <article class="product-card" data-category="food" data-id="butter-croissant" data-name="Butter Croissant" data-price="22000"><div class="product-image img-croissant"><button class="quick-add" aria-label="Tambah Butter Croissant">+</button></div><div class="product-info"><div><h3>Butter Croissant</h3><p>Pastry renyah dengan aroma mentega.</p></div><strong>Rp22.000</strong></div></article>
+      </div>
+      <p class="menu-disclaimer">* Harga dan ketersediaan menu dapat disesuaikan oleh pengelola.</p>
+    </section>
+
+    <section class="quote-band"><div class="quote-mark">“</div><p>Sometimes all you need is<br /><em>a good cup of coffee</em> and a little pause.</p><span>— A LITTLE NOTE FROM RUANG SENJA</span></section>
+
+    <section class="experience section-pad" id="suasana">
+      <div class="section-kicker">03 — THE EXPERIENCE</div>
+      <div class="experience-head"><h2>Tempat nyaman untuk<br /><em>menikmati waktu.</em></h2><p>Datang untuk kopi, tinggal untuk suasananya. Jadikan Ruang Senja tempat bertemu ide dan orang-orang baik.</p></div>
+      <div class="gallery-grid"><div class="gallery-photo gallery-one"><span>YOUR SLOW MOMENT</span></div><div class="gallery-photo gallery-two"><span>GOOD THINGS BREW HERE</span></div><div class="gallery-photo gallery-three"><span>MEET • WORK • REPEAT</span></div></div>
+    </section>
+
+    <section class="visit-section" id="lokasi"><div class="visit-copy"><div class="section-kicker light-kicker">04 — COME SAY HELLO</div><h2>Meja favoritmu<br /><em>menunggumu.</em></h2><p>Singgah sebentar atau habiskan waktu lebih lama. Kami siap menyambutmu.</p><div class="visit-details"><div><span>ALAMAT</span><strong id="addressText">[Isi alamat lengkap coffee shop]</strong></div><div><span>JAM OPERASIONAL</span><strong id="hoursText">Setiap hari · 09.00–22.00 WIB</strong></div><div><span>HUBUNGI KAMI</span><strong id="phoneText">[Isi nomor WhatsApp]</strong></div></div><a class="btn btn-light" id="mapLink" href="https://maps.google.com" target="_blank" rel="noopener">Lihat di Google Maps <span>↗</span></a></div><div class="visit-visual"><div class="visit-photo"></div><div class="visit-note"><span>✳</span><p>Good coffee.<br />Better company.</p></div></div></section>
+
+    <section class="closing-cta"><p class="eyebrow">YOUR NEXT FAVORITE CUP IS HERE</p><h2>Yuk, mulai hari dengan<br /><em>cerita yang baru.</em></h2><a class="btn btn-primary" href="#menu">Pilih Menu Favorit <span>↗</span></a></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark">rs<span>.</span></span><span class="brand-name">RUANG SENJA<small>COFFEE & STORIES</small></span></a><p>Tempat kecil untuk rasa yang besar.</p><div class="footer-links"><a id="instagramLink" href="https://instagram.com" target="_blank" rel="noopener">Instagram ↗</a><a id="whatsappFooter" href="#menu">WhatsApp ↗</a><a href="#top">Kembali ke atas ↑</a></div><small>© <span id="year"></span> Ruang Senja Coffee. Made for good moments.</small></footer>
+
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true"><aside class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle"><div class="cart-header"><div><span class="section-kicker">YOUR ORDER</span><h2 id="cartTitle">Keranjang <em>kamu.</em></h2></div><button class="close-cart" id="closeCart" aria-label="Tutup keranjang">×</button></div><div class="cart-items" id="cartItems"><div class="empty-cart"><span>☕</span><p>Keranjangmu masih kosong.</p><small>Yuk, pilih minuman favoritmu.</small></div></div><div class="cart-footer"><div class="total-row"><span>Total</span><strong id="cartTotal">Rp0</strong></div><button class="btn btn-primary checkout-btn" id="checkoutBtn">Pesan via WhatsApp <span>↗</span></button><small class="checkout-note">Pesanan akan dikirim melalui WhatsApp untuk konfirmasi.</small></div></aside></div>
+  <div class="toast" id="toast" role="status" aria-live="polite">Ditambahkan ke keranjang</div>
+  <script src="script.js"></script>
+</body>
+</html>
